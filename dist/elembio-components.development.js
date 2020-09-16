@@ -1,0 +1,2 @@
+import{VisibilityOff,Visibility}from'@material-ui/icons';import{TextField,InputAdornment,IconButton}from'@material-ui/core';import{useState,createElement}from'react';export var PasswordInput=({...b})=>{const [a,c]=useState(!1);return createElement(TextField,Object.assign({},b,{type:a?"text":"password",InputProps:{endAdornment:createElement(InputAdornment,{position:"end"},createElement(IconButton,{onClick:()=>c(a=>!a),edge:"end"},a?createElement(VisibilityOff,null):createElement(Visibility,null)))}}))}
+//# sourceMappingURL=elembio-components.development.js.map

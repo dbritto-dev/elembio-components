@@ -1,0 +1,2 @@
+import{VisibilityOff as r,Visibility as o}from"@material-ui/icons";import{TextField as t,InputAdornment as e,IconButton as n}from"@material-ui/core";import{useState as i,createElement as p}from"react";export var PasswordInput=({...s})=>{const[a,m]=i(!1);return p(t,Object.assign({},s,{type:a?"text":"password",InputProps:{endAdornment:p(e,{position:"end"},p(n,{onClick:()=>m(r=>!r),edge:"end"},p(a?r:o,null)))}}))};
+//# sourceMappingURL=index.js.map
